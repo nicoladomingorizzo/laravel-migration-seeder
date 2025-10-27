@@ -1,0 +1,33 @@
+
+body {
+    font-family: 'Share Tech Mono', monospace; 
+    background-color: #000 !important;
+    color: #0F0 !important;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 0 0 5px #0F0;
+}
+
+.table-dark th {
+    background-color: rgba(0, 255, 0, 0.1) !important; 
+    color: #0F0 !important;
+    border-color: rgba(0, 255, 0, 0.2);
+}
+
+.table-dark td {
+    border-color: rgba(0, 255, 0, 0.2);
+}
+
+.cancelled {
+    color: #F00 !important; 
+    text-decoration: line-through;
+    font-weight: bold;
+}
+.late {
+    color: #FF0 !important; 
+    font-weight: bold;
+}
