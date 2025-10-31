@@ -15,6 +15,7 @@ class TrainController extends Controller
         $trains = Train::where('departure_date', '>=', $today)
             ->orderBy('departure_date')
             ->orderBy('departure_time')
+            // Eseguo la query con get()
             ->get();
 
         return view('home', compact('trains'));
