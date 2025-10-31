@@ -49,7 +49,7 @@
                 @if ($trains->isEmpty())
                     <tr>
                         <td colspan="7" class="text-center text-secondary py-4">
-                            Nessun treno in partenza dalla data odierna.
+                            Nessun treno in partenza.
                         </td>
                     </tr>
                 @endif
