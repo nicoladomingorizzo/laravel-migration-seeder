@@ -27,6 +27,7 @@ class TrainSeeder extends Seeder
             // 10% di probabilità di cancellazione
             $isCancelled = $faker->boolean(10);
 
+            // Creo una nuova istanza basato sulla classe Train
             $newTrain = new Train();
             $newTrain->company = $faker->company();
             $newTrain->departure_station = $faker->city();
